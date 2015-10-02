@@ -1,6 +1,6 @@
 #include "player.h"
 
-Player::Player()
+Player::Player(int number, int sign) : number(number), sign(sign)
 {
 
 }

@@ -16,12 +16,16 @@ SOURCES += main.cpp\
         newgamewindow.cpp \
     gamewindow.cpp \
     player.cpp \
-    human.cpp
+    human.cpp \
+    cpu.cpp \
+    game.cpp
 
 HEADERS  += newgamewindow.h \
     gamewindow.h \
     player.h \
-    human.h
+    human.h \
+    cpu.h \
+    game.h
 
 FORMS    += newgamewindow.ui \
     gamewindow.ui

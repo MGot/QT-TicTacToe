@@ -1,7 +1,11 @@
 #include "cpu.h"
 
-CPU::CPU()
+CPU::CPU(int num, int sign) : Player(num, sign)
 {
 
 }
 
+CPU::~CPU()
+{
+
+}

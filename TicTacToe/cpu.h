@@ -1,11 +1,13 @@
 #ifndef CPU_H
 #define CPU_H
 
+#include "player.h"
 
 class CPU : public Player
 {
 public:
-    CPU();
+    CPU(int, int);
+    virtual ~CPU();
 
 signals:
 

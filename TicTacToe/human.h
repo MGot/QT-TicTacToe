@@ -7,7 +7,7 @@
 class Human : public Player
 {
 public:
-    Human(int num);
+    Human(int, int);
     virtual ~Human();
 
 signals:

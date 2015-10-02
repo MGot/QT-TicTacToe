@@ -5,14 +5,16 @@
 class Player
 {
 public:
-    Player();
+    int number;
+    Player(int,int);
+
     virtual ~Player();
     int getPlayerNumber()
     {
         return number;
     }
 protected:
-    int number;
+    int sign;
 
 signals:
 

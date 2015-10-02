@@ -15,8 +15,12 @@ public:
     explicit GameWindow(QWidget *parent = 0);
     ~GameWindow();
 
+public slots:
+
 private slots:
     void on_exitButton_clicked();
+
+    void on_oneButton_clicked();
 
 private:
     Ui::GameWindow *ui;
